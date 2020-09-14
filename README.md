@@ -19,21 +19,21 @@ Google sign in implementing with firebase :
 
 Detailed overview : 
 
-First i add my app to flutter firebase for getting free server,
-Then I created my app project and deleted boiler codes and made a new app.
-Then i add google dependencies which helps us to google sign in and sign out from our app.
+1)  First i add my app to flutter firebase for getting free server,
+2)  Then I created my app project and deleted boiler codes and made a new app.              
+3) Then i add google dependencies which helps us to google sign in and sign out      from our app.
 
 Google_sign_in => This package is used for authentication and sign in with a google account. 
 
 Package Link : https://pub.dev/packages/google_sign_in
 
-After making that I made my main.dart file and in the main.dart file I made a runApp function which does what and which page the user sees first. The syntax is like This : 
+4)  After making that I made my main.dart file and in the main.dart file I made a runApp function which does what and which page the user sees first. The syntax is like This : 
 
 void main() => runApp(MaterialApp(
      home: login_page(),
    ));
      
-     5)  Then i made a login.dart file. In the login.dart file I used a stateful widget                                                because when we want to catch the Number of pressed buttons and Data of the user    then we use this widget. The syntax is Like : 
+5)  Then i made a login.dart file. In the login.dart file I used a stateful widget because when we want to catch the Number of pressed buttons and Data of the user    then we use this widget. The syntax is Like : 
 
 
 class login_page extends StatefulWidget {
@@ -91,7 +91,7 @@ OutlineButton(
                    _Login();
                  },
 
-9) And same i did with Logout Button :
+9)  And same i did with Logout Button :
 
 OutlineButton(
                  color: Colors.blue,
@@ -100,4 +100,5 @@ OutlineButton(
                     _Logout();
                  }),
 
-10) Finally all work is done as you can see in my Logging In button i add onPressed Method and in onPressed Method i passed my _Login method(This method mentioned in No. 7 of the list),  and same i did with My Logout Button.
+10)  Finally all work is done as you can see in my Logging In button i add onPressed Method and in onPressed Method i passed my _Login method(This method mentioned in No. 7 of the list),  and same i did with My Logout Button.
+
